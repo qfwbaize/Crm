@@ -15,3 +15,4 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'Index/hello');
+Route::get('text', 'Index/index');

@@ -12,10 +12,10 @@
 // [ 应用入口文件 ]
 namespace think;
 
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 // 声明全局变量
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT_PATH', __DIR__ . DS . '..' . DS);
+define('ROOT_PATH', __DIR__ . DS . DS);
 // 执行HTTP应用并响应
 $http = (new App())->http;
 
